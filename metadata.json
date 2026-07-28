@@ -1,6 +1,6 @@
 {
-  "name": "Smart Bill Splitter",
-  "description": "A split-screen receipt parser and proportional cost splitting assistant.",
+  "name": "Mr B Ventures",
+  "description": "E-commerce landing page and catalog for Mr B Ventures — precision-engineered consumer electronics.",
   "requestFramePermissions": [],
-  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+  "majorCapabilities": []
 }

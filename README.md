@@ -1,20 +1,25 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://ai.google.dev/static/site-assets/images/share-ais-513315318.png" />
-</div>
+# Mr B Ventures
 
-# Run and deploy your AI Studio app
+The e-commerce landing page and product catalog for Mr B Ventures —
+precision-engineered audio, wearables, and charging gear.
 
-This contains everything you need to run your app locally.
+## Run locally
 
-View your app in AI Studio: https://ai.studio/apps/ba3c29f5-1d9b-4223-a83a-abdb243f4d1e
-
-## Run Locally
-
-**Prerequisites:**  Node.js
-
+**Prerequisites:** Node.js
 
 1. Install dependencies:
    `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
+2. Run the app:
    `npm run dev`
+3. Open [http://localhost:3000](http://localhost:3000)
+
+## Build
+
+`npm run build` produces a static bundle plus a small Express server
+(`dist/server.cjs`) that serves it. Run the built app with `npm start`.
+
+## Stack
+
+React 19, Vite, Tailwind CSS v4, and Motion for animation. The product
+catalog and cart are entirely client-side — there's no backend or payment
+integration wired up yet.
